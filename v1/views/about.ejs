@@ -1,0 +1,57 @@
+<%- include ('./partials/header') %>
+<div class="row mt-0 ml-0 h-100">
+    <div class="col-12 col-lg-2 vertical-nav bg-dark d-flex flex-column align-items-start" id="sidebar">
+        <img src="https://i.stack.imgur.com/dMXbE.png" class="navbar-brand mb-5 pl-5" width="100" height="100">
+        <ul class="nav flex-column align-items-start bg-dark mb-0 mt-5 pl-2">
+            <li class="nav-item">
+                <a class="nav-link collapsed text-light display-4" href="#submenu1" data-toggle="collapse"
+                    data-target="#submenu1"><strong>About</strong></a>
+                <div class="collapse" id="submenu1" aria-expanded="false">
+                    <ul class="flex-column pl-2 nav mb-5 ml-3" id="sub-item">
+                        <li class="nav-item">
+                            <a class="nav-link collapsed py-1 text-light" id="hist" href="#submenu1sub1"
+                                data-toggle="collapse" data-target="#submenu1sub1"><span>History</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link collapsed py-1 text-light" id="mission" href="#submenu1sub1"
+                                data-toggle="collapse" data-target="#submenu1sub1"><span>Mission</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link collapsed py-1 text-light" id="partners" href="#submenu1sub1"
+                                data-toggle="collapse" data-target="#submenu1sub1"><span>Partners</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-item sub text-align-left">
+                <a href="/" class="nav-link text-light">
+                    Home
+                </a>
+            </li>
+            <li class="nav-item sub">
+                <a href="#" class="nav-link text-light">
+                    Products
+                </a>
+            </li>
+            <li class="nav-item sub">
+                <a href="#" class="nav-link text-light">
+                    Customers
+                </a>
+            </li>
+            <li class="nav-item sub">
+                <a href="#" class="nav-link text-light">
+                    Contact Us
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="row mt-0 ml-0 col-12 col-lg-10 mx-0 pr-0 pl-0 pl-2" id="about-text">
+        <div class="col-12 col-sm-9" id="about-component">
+        </div>
+        <div class="col-12 col-sm-3 pr-0" id="test">
+        </div>
+    </div>
+</div>
+</body>
+<script src="/javascript/index.js"></script>
+</html>

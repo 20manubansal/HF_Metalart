@@ -1,6 +1,13 @@
+body{
+    background:#dcd3c9;
+    position: relative;
+}
 #top-image{
     height:100%;
     width:100%;
+}
+#sidebar{
+    height:100%;
 }
 #white{
     color:white;
@@ -17,4 +24,105 @@
     color:white;
     padding-top:20%;
     text-align: center;
+}
+.top-text-mission{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width:50%;
+    color:white;
+    padding-top:35%;
+    text-align: center;
+}
+.info{
+    font-size: 1.3rem;
+}
+#info{
+    font-size: 1.3rem;
+}
+#about-info{
+    margin-top:100px;
+    margin-left:12%;
+}
+div {
+  overflow: hidden;
+}
+
+ul{
+    list-style: none;
+}
+
+.sitemap{
+    text-decoration: none;
+    color: #dcd3c9;
+}
+.fa {
+  padding: 1rem;
+  font-size: 2rem;
+  width: 1rem;
+  height: 1rem;
+
+  text-align: center;
+  text-decoration: none;
+  border-radius: 90%;
+}
+
+
+
+
+
+.icon-bar a {
+  text-align: center;
+  padding: 0.9rem;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 1.3rem;
+}
+
+/*.icon-bar a:hover {
+  background-color: #000;
+}*/
+
+
+#info-partner{
+    font-size:1.3rem;
+}
+.row{
+    margin-top:10px;
+    margin-left:12%;
+    margin-right:0px;
+    height: 100%;
+}
+.vertical-nav {
+    height: 100vh;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s;
+    align-items: center;
+    padding-left: 0px;
+    padding-right:0px;
+}
+#about-text{
+      padding-left: 15%;
+  }
+.sub{
+      font-size: 2rem;
+  }
+#sub-item{
+    font-size:1.5rem
+}
+#test{
+    background-image: url("https://stillmed.olympic.org/media/Images/OlympicOrg/News/2019/07/24/Tokyo-medals/2019-07-24-medals-thumbnail.jpg");
+}
+.partner-img{
+    max-width:100%;
+    max-height:100%;
+}
+.mission-image{
+    max-width: 100%;
+    max-height: 100%;
 }
